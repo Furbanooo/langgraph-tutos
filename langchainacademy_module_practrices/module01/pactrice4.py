@@ -16,7 +16,7 @@ class State(MessagesState):
 class decisionRationale(BaseModel):
     decision_rationale: bool = Field(
         ...,
-        description="the fact entered by the user are clasified iether rational or not9in a boolean format"
+        description="the fact entered by the user are clasified iether rational or not in a boolean format"
     )
 
 def decision_rationale_node(state: State):
